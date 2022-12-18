@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* --navbar-- */
+.w3-bar-name {
+  text-decoration: none;
+  font-weight: bolder;
+}
+a {
+  color: white;
+}
+.icon-bar {
+  background-color: #282a35;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  overflow: auto;
+  font-family: "Source Sans Pro", sans-serif;
+  position: fixed;
+  z-index: 5;
+}
+.flexChild {
+  display: flex;
+}
+.active,
+.items:hover {
+  background-color: green;
+  color: white;
+}
+.items {
+  padding: 10px;
+}
+.items:hover {
+  background-color: black;
+}
+/* ----bg text ---- */
+.head1 {
+  color: #00a300;
+  position: absolute;
+  right: 330px;
+  top: 50px;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.head2 {
+  color: #00a300;
+  position: absolute;
+  right: 330px;
+  top: 350px;
+  font-size: 35px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.htm {
+  position: absolute;
+  right: 20px;
+  top: 150px;
+  color: white;
+  border: #59981a ridge 5px;
+}
+.cards:hover {
+  transform: scale(
+    1.1
+  );
+  background-color: #F0F2F5;
+  border-radius: 5%;
+
+  /* transition: 0.5; */
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.cs {
+  position: absolute;
+  right: 50px;
+  top: 450px;
+  color: white;
+  border: #59981a ridge 5px;
+}
+.bgimage {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?b=1&s=170667a&w=0&k=20&c=iQE4in2blXsYoRYjoX7F8e4AFF6kOaE-TZiVNMPQ5kI=);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+.zindex {
+  z-index: 1;
+}
+.main-container {
+  /* position: relative; */
+  margin: 20px 91px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cards {
+  /* border: 1px solid black; */
+  /* width: 20vw; */
+  width: 300px;
+  margin: 15px;
+  /* position: absolute; */
+  /* left: 100px; */
+  /* height: 50vh; */
+  transition: transform .7s;
+}
+.boxe {
+  border-radius: 5%;
+  /* position: ;
+  left: 100px;
+  height:200px; */
+  /* width: 20vw; */
+  width: 300px;
+   /* Animation */
+ 
+}
+.logo {
+  border-radius: 50%;
+  margin-top: 10px;
+  height: 38px;
+  width: 38px;
+}
+.txtedit {
+  margin-left: 13px;
+}
+h1 {
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 15px;
+  margin-bottom: -5px;
+}
+.xtedit {
+  font-family: "Roboto", "Arial", sans-serif;
+  color: #606060;
+  font-size: small;
+  /* margin: 0; */
+  /* padding: 0; */
+  border: 0;
+  /* background: transparent; */
+}
+.logo-title {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+}
+.fa-youtube {
+  color: red;
+}
+.yt {
+  font-size: 50px;
+  /* font-weight: 5000; */
+  font-family: " Roboto", "Arial", sans-serif;
+  /* height: 20px;
+  width: 90px; */
+  padding: 18px 14px 18px 16px;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #282a35;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.socials i {
+  margin: 0px 12px;
+  /* margin: 2px 0 2px 0; */
+  font-size: 20px;
+}
+.contactHeading {
+  font-size: 25px;
+  margin: 20px 0px;
+  /* font-style: italic; */
+  text-transform: uppercase;
+}
+
+/* Switching    */
+.switcher{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(202, 202, 202);
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+    
+  /* padding-top: 20px; */
+
+}
+.switcher a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.switcher a:hover{
+  color: red;
+}
+.fot p {
+  font-family: Arial, Helvetica, sans-serif;
+}
